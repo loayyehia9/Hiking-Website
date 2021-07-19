@@ -1,0 +1,42 @@
+.i{
+    width:150; 
+    border-radius: 50%;
+    transform: translate(300%, -50%);   
+     }
+     .fN{
+         text-align: center;
+         transform: translate(140%, -40%);   
+         padding: 10px;
+     }
+     .lN{
+         text-align: center;
+         transform: translate(220%, -40%);   
+         padding: 10px;
+     }
+     .e{
+         text-align: center;
+         transform: translate(220%, -40%);   
+         padding: 10px;
+     }
+
+     .p{
+         text-align: center;
+         transform: translate(220%, -40%);   
+         padding: 10px;
+     }
+
+     .cont{
+        background: rgb(0,0,0,0.5);
+     }
+     .b{
+        text-align: center;
+         transform: translate(0%, 50%);   
+         padding: 10px;
+         width: 1125px;
+     }
+     .b:hover{
+         background-color: purple;
+         color: white;
+     }
+
+

@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url('Images/Dark.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    text-align: center;
+    color:rgb(11, 11, 194);
+    padding: 20px;
+    overflow-y: hidden;
+  }
+  .register{
+    overflow-y: scroll;
+    transform: translate(100%, 100%);
+    background-color: black;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    
+
+    
+
+ 
+  }
+
+
+  .register input[type="text"]
+  {
+      padding: 20px;
+    border:none;
+    border-bottom: 1px solid #fff;
+    background:transparent;
+    outline: none;
+    height: 40px;
+    color:white;
+  }
+
+
+  .register input[type="submit"]
+{
+border:none;
+outline: none;
+height: 40px;
+background:blue;
+color:#fff;
+font-size: 18px;
+transform: translate(0%,40%);
+} 

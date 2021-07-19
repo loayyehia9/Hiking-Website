@@ -1,0 +1,25 @@
+body{ 
+   background-image: url('Images/dark.jpeg'); 
+   background-size: cover; 
+   overflow: auto; 
+   font-family: sans-serif; 
+   color:white; 
+ 
+} 
+.viewOrder{ 
+   color: white; 
+   transform: translate(50%, 20%); 
+   text-align: center; 
+   font-weight: bold; 
+   overflow-y: scroll; 
+   height: 400px; 
+   background-color: black; 
+   width: 700px; 
+}
+img{
+   width: 200px;
+   height: 200px;
+}
+.oN{
+   color: RED;
+}

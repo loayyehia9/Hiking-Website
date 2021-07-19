@@ -1,0 +1,39 @@
+body{
+	   margin: 0;
+	   padding: 0;
+	   background:url('Images/Dark.jpg');
+	   background-size: cover;
+	   font-family: sans-serif;
+	   color:white;
+	   overflow-x: hidden;
+}
+img{
+		width: 200px;
+		height: 200px;
+	}
+	.form-group{
+	transform: translate(0%,-200%);
+ 		
+	}
+	.register{
+	background: rgb(0,0,0,0.5);
+	color:#fff;
+	width:500px;
+	background-position: center; 
+	transform: translate(57%);
+ 	padding: 3px 30px;
+}
+
+.li{
+	margin-left: 50px;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+	h2{
+		color: white;
+
+
+	}
+	

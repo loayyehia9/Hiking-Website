@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+   padding: 0;
+   background:url(Images/Dark.jpg);
+   background-size: cover;
+   overflow: auto;
+   font-family: sans-serif;
+   color:white;
+   overflow-y: hidden;
+   
+}
+.register{
+
+background: rgb(0,0,0,0.5);
+background-position: center; 
+height: 1000px;
+}
+.register h1
+{
+margin: 20;
+padding: 10;
+text-align: center;
+font-size:22px;
+transform: translate(-22%,0%);
+}
+
+.boxone
+{
+overflow-y: scroll;
+transform: translate(40%, 30%);
+background-color: black;
+width: 380px;
+height: 300px;
+padding: 10px;
+
+}
+.boxtwo
+{
+overflow-y: scroll;
+ overflow-x: hidden;
+transform: translate(200%, -60%);
+background-color: black;
+width: 380px;
+height: 500px;
+padding: 10px;
+
+
+
+}
+
+input[type="text"]{
+   
+   margin: 10px;
+   width: 300px;
+   border:none;
+border-bottom: 1px solid #fff;
+background:transparent;
+outline: none;
+color:white;
+text-align: center;
+
+
+}
+
+input[type="email"]{
+text-align: center;
+
+}

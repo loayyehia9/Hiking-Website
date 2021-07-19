@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url('Images/Dark.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    color:white;
+    overflow-y: hidden;
+  }
+
+.register
+{
+background-color: rgb(0,0,0,0.5);
+ text-align: center;    
+       font-weight: bold;
+       overflow-y: scroll;
+       overflow-x: hidden;
+       height: 500px;
+       color: black;
+   transform: translate(40%,10%);
+       width: 800px;
+}
+
+.u{
+    margin: 5;
+    padding: 5;
+    text-align: center;
+    font-size:20px;
+    transform: translate(-30%,-10%);
+}
+.user{
+    margin: 5;
+    padding: 5;
+    text-align: center;
+    font-size:20px;
+    transform: translate(-40%,-10%);
+    color: white;
+}
+.users{
+    margin-top: -1100px;
+}
+img
+{
+
+  width: 100px;
+        height: 100px;
+        transform: translate(0%,-10%);
+}
+
+.table-hover{
+    background-color: white;
+    transform: translate(0%, -30%);
+}
+
+input[type='submit']{
+    width: 200px;
+    padding: 10px;
+    transform: translate(3%);
+    color: black;
+}
+
+input[type='submit']:hover{
+    background-color: purple;
+    color: white;
+}

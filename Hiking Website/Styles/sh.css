@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+   padding: 0;
+   background:url(Images/Dark.jpg);
+   background-size: cover;
+   overflow: auto;
+   font-family: sans-serif;
+   color:white;
+   overflow-y: hidden;
+   
+}
+
+.box
+{
+overflow-y: scroll;
+background: rgb(0,0,0,0.5);
+width: 1000px;
+height: 500px;
+padding: 10px;
+transform: translate(5%, -20%);
+
+}
+span{
+   color: white;
+}
+input[type="text"]{
+   padding: 10px;
+   margin: 10px;
+   color: black;
+   width: 500px;
+   border-bottom: 1px solid #fff;
+background:transparent;
+outline: none;
+color:white;
+text-align: center;
+transform: translate(30%, 0%);
+
+
+}
+input[type="submit"]{
+   padding: 10px;
+   margin: 10px;
+   transform: translate(0%, 100%);  
+   color:blue;
+   width:90%;
+    border-radius: 20px;
+}
+h1{
+ color:RED;
+ transform: translate(30%, 500%);  
+
+}

@@ -1,0 +1,136 @@
+body{
+    overflow-y: hidden;
+}
+h4{
+    color:#fff;
+    font-size: 20px;
+    transform: translate(45%,-260%);
+    font-weight: bold;
+}
+h2{
+  color: #FF6D6D;
+  transform: translate(15%, 850%);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+button{
+    background-color: #000;
+}
+
+.fa-trash-alt{
+    color: white;
+
+}
+
+.fa-trash-alt:hover{
+    color: red;
+}
+h1{
+    
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size:40px;
+    color: white;
+
+}
+body{
+   overflow-x: hidden;
+}
+
+.products{
+    background-color: black;
+    height: 500px;
+    width: 600px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 10px;
+    transform: translate(10%,-20%);
+}
+
+.font-weight-bold{
+    color: #fff;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.checkout {
+    transform: translate(65%, -300%);
+}
+
+.checkout ul{
+    border: 2px solid #ebebeb;
+    background: #f3f3f3;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:16px;
+    padding-bottom: 20px;
+    width: 300px;
+}
+.checkout ul li{
+    list-style: none;
+    font-size:16px;
+    font-weight: bold;
+    color:#252525;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.cart-total{
+    transform: translate(0%,50%);
+}
+
+.checkout ul li.subtotal{
+    font-weight: bold;
+    text-transform: capitalize;
+    border-bottom:2px solid #000;
+    padding-top: 14px;
+}
+.checkout ul li.subtotal span{
+    font-weight: bold;
+}
+
+.checkout ul li span{
+    float:right;
+}
+.checkout .proceed-btn{
+    font-size:15px;
+    font-weight: bold;
+    color:#fff;
+    background:#252525;
+    text-transform: uppercase;
+    padding:15px 25px 14px 25px;
+    display: block;
+    text-align: center;
+    border-radius: 30px;
+    transform: translate(13%,4%);
+    cursor: pointer; 
+}
+.checkout .proceed-btn:hover{
+    background-color: #6FC35E;
+    color: #000
+
+}
+
+.total ,  total:active{
+
+    background: transparent; 
+    border: none !important; 
+    
+    font-weight: bold;
+    cursor: not-allowed;
+}
+
+
+.trash{ 
+    transform:translate(-110%,0%); 
+    background: transparent; 
+    border: none !important; 
+    color: transparent; 
+    
+    cursor: pointer;
+}

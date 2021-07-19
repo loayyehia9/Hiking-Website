@@ -1,0 +1,3 @@
+function Reply(){
+    $(".re").hide();
+}

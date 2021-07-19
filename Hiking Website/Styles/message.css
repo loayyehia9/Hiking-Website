@@ -1,0 +1,97 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url('Images/Dark.jpg');
+  background-size: cover;
+  font-family: sans-serif;
+  color:white;
+  overflow-y: hidden;
+}
+.box{
+  background: rgb(0,0,0,0.8);
+  margin-top: -100px;
+  padding: 50px 30px; 
+  height: 650px;
+}
+
+.wra h2{
+
+  line-height: 24px;
+  padding: 15px;
+  margin-bottom: 40px;
+  
+}
+.rec{
+  text-align: center;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  
+  height: 200px;
+  width: 300px;
+ 
+background-color: white;
+color: black;
+transform: translate(0%, -30%);
+}
+h4{
+  transform: translate(0%, -170%);
+
+}
+.sen{
+  text-align: center;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  
+  height: 200px;
+  width: 300px;
+ 
+background-color: white;
+color: black;
+transform: translate(0%, -30%);
+}
+
+h1{ margin: 10; padding: 10; text-align: center; font-size:22px; } 
+.wra input[type="submit"]
+{
+  background: blue;
+  border: 1px solid rgba(0,0,0,0.2);
+  color: #fff;
+  outline: none;
+  padding: 0 10px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 1px 0 rgba(255,255,255,0.6);
+  letter-spacing: 1px;
+  transition: 0.5s;
+  width: 50%;
+  font-size: 18px;
+  transform: translate(90%, -1000%);
+}
+.wra input{
+width:100%;
+margin-bottom: 10px;
+}
+.wra input[type="text"]
+{
+text-align: center;
+width: 180px;
+background: rgb(0,0,0,0.5);
+color: white;
+}
+.wra textarea{
+
+width:700px;
+height: 100px;
+transform: translate(50%, -450%);
+}
+
+table{
+  border: 5px solid blue;
+  margin-left: 50px;
+}
+
+
+table:hover{
+background-color: purple;
+}

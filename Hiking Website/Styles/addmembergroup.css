@@ -1,0 +1,22 @@
+body{ background-image: url('Images/dark.jpeg'); 
+      background-size: cover; 
+      overflow: auto; 
+      font-family: sans-serif; 
+      color:white; 
+      overflow-y: hidden; 
+    } 
+    .register{ 
+        color: white; 
+        text-align: center; 
+        font-weight: bold; 
+        overflow-y: scroll;
+        height: 500px; 
+        background-color: rgb(0, 0, 0, 0.6); 
+    }
+    img{
+        width: 200px;
+        height: 200px;
+    } 
+    .l{
+        font-size: 30px;
+    }

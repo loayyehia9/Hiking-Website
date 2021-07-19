@@ -1,0 +1,76 @@
+body{
+      margin: 0;
+      padding: 0;
+      background:url(../Images/K.jpeg) no-repeat;
+      background-size: cover;
+      
+      font-family: sans-serif;
+    }
+    h2{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size:22px;
+}
+.register
+{
+    width:320px;
+  height:200px;
+  background:#000;
+  color:#fff;
+  top:50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  
+  padding: 70px 30px;
+}
+.register input[type="submit"]
+{
+border:none;
+outline: none;
+height: 40px;
+background:blue;
+color:#fff;
+font-size: 18px;
+border-radius: 20px;
+transform: translate(0%,50%);
+
+
+}
+.register input{
+  width:100%;
+  margin-bottom: 10px;
+
+
+}
+.register input[type="text"]
+{
+  border:none;
+  border-bottom: 1px solid #fff;
+  background:transparent;
+  outline: none;
+  height: 40px;
+  color:white;
+}
+.register input[type="submit"]:hover
+{
+  cursor:pointer;
+  background:#ffc107;
+  color: #000;
+
+}
+ img{
+      width: 200px;
+      height: 200px;
+      margin-right: 100px;
+      display: block;
+      margin-top: 100px;
+    }
+     h3 h5{
+          float: right;
+          width: 100%;
+        margin-top: 10%;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        }

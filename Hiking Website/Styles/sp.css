@@ -1,0 +1,42 @@
+body{
+	   margin: 0;
+	   padding: 0;
+	   background:url('Images/Dark.jpg');
+	   background-size: cover;
+	   font-family: sans-serif;
+	   color:white;
+	   overflow-x: hidden;
+}
+img{
+		width: 200px;
+		height: 200px;
+	}
+	.form-group{
+	transform: translate(0%,-200%);
+ 		
+	}
+	.register{
+	background: rgb(0,0,0,0.5);
+	color:#fff;
+	background-position: center; 
+	transform: translate(0%,-10%);
+ 	padding: 3px 30px;
+}
+.comp{
+	transform: translate(30%,-150%);
+}
+.li{
+	margin-left: 50px;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+	h3{
+		color: white;
+	}
+	#search_text{
+		width: 1000px;
+		padding: 10px;
+		border-radius: 25px;
+	}
